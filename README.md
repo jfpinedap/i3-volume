@@ -26,7 +26,7 @@ If you are using [dunst], you may optionally choose to use `dunstify` instead of
 Expiration time of notifications can be changed using the `-e <time_in_milliseconds>` option. Default is 1500 ms.
 
 ### Guide
-Clone this repository: `git clone https://github.com/hastinbe/i3-volume.git ~/i3-volume`
+Clone this repository: `git clone https://github.com/jfpinedap/i3-volume.git ~/.config/i3/config/i3-volume`
 
 Edit the following example and append it to your ~/.config/i3/config:
 
@@ -34,7 +34,7 @@ Edit the following example and append it to your ~/.config/i3/config:
 ## Volume control
 
 # Path to volume control, without trailing slash
-set $volumepath ~/i3-volume
+set $volumepath ~/.config/i3/config/i3-volume
 
 # Command for the status line (used with -t, requires -u)
 #   ie: i3blocks, i3status
